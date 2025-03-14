@@ -2,11 +2,13 @@ PubMed Paper Fetcher
 A Python CLI tool to fetch research papers from PubMed, filtering for pharmaceutical and biotech affiliations.
 
 📌 Features
+
 Fetches papers using the PubMed API.
 Filters papers with non-academic authors affiliated with pharmaceutical or biotech companies.
 Outputs results as a CSV file.
 Command-line interface using Typer.
 📦 Setup Instructions
+
 1️⃣ Install Poetry
 Ensure you have Poetry installed. If not, install it:
 
@@ -20,12 +22,14 @@ bash
 Copy
 Edit
 poetry --version
+
 2️⃣ Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/vinayastar01/pubmed-fetcher.git
-cd pubmed-paper-fetcher
+cd pubmed-fetcher
+
 3️⃣ Install Dependencies
 Run the following command inside the project directory:
 
@@ -91,6 +95,7 @@ Copy
 Edit
 git push origin feature-branch
 Create a Pull Request.
+
 📜 License
 This project is licensed under the MIT License.
 
